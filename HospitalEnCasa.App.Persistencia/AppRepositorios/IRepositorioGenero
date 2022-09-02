@@ -1,0 +1,16 @@
+using System;
+using System.Collections.Generic;
+using HospiEnCasa.App.Dominio;
+namespace HospiEnCasa.App.Persistencia
+{
+    public interface IRepositorioGenero
+    {
+        IEnumerable<Genero> GetAllGeneros();
+        Genero AddGenero(Genero genero);
+        Genero UpdateGenero(Genero genero);
+        Boolean DeleteGenero(int idGenero);
+        Genero GetGenero(int idGenero); 
+
+    }
+
+}

@@ -1,0 +1,9 @@
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\bin\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.deps.json
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\bin\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.dll
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\bin\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.pdb
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\obj\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.csprojAssemblyReference.cache
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\obj\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.AssemblyInfoInputs.cache
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\obj\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.AssemblyInfo.cs
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\obj\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.csproj.CoreCompileInputs.cache
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\obj\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.dll
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Dominio\obj\Debug\netstandard2.0\HospitalEnCasa.App.Dominio.pdb

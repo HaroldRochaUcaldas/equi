@@ -1,0 +1,72 @@
+using System;
+using System.Collections.Generic;
+using HospiEnCasa.App.Dominio;
+using System.Linq;
+
+namespace HospiEnCasa.App.Persistencia
+{
+
+    public class RepositorioGenero : IRepositorioGenero
+    {
+
+        private readonly AppContext _appContex;
+
+        /// <summary>
+        //description metodo constructor recibe un apptontex
+        /// </summary>>
+        /// <param name="appcontext">description</param>>
+        public RepositorioGenero(AppContext appContex)
+        {
+            _appContex = appContex;
+        }
+
+        public Genero AddGenero(Genero genero)
+        {
+            var generoAdicionado = _appContex.Generos.Add(genero);
+            _appContex.SaveChanges();
+            return generoAdicionado.Entity;
+        }
+
+        public Boolean DeleteGenero(int idGenero)
+        {
+            var generoEncontrado = _appContex.Generos.FirstOrDefault(p => p.Id == idGenero);
+            if (generoEncontrado == null)
+            {
+                return false;
+            }
+            else
+            {
+                _appContex.Generos.Remove(generoEncontrado);
+                _appContex.SaveChanges();
+                return true;
+            }
+
+        }
+
+        public Genero GetGenero(int idGenero)
+        {
+            return _appContex.Generos.FirstOrDefault(p => p.Id == idGenero);
+        }
+
+        public IEnumerable<Genero> GetAllGeneros()
+        {
+            return _appContex.Generos;
+        }
+
+        public Genero UpdateGenero(Genero genero)
+        {
+            var generoEncontrado = _appContex.Generos.FirstOrDefault(p => p.Id == genero.Id);
+            if (generoEncontrado == null)
+            {
+                generoEncontrado.Name = genero.Name;
+                generoEncontrado.Description = genero.Description;               
+                _appContex.SaveChanges();
+                return generoEncontrado;
+            }
+            else
+            {
+                return generoEncontrado;
+            }
+        }
+    }
+}
