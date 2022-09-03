@@ -1,6 +1,6 @@
 using System;
 using System.Collections.Generic;
-using HospiEnCasa.App.Dominio;
+using HospitalEnCasa.App.Dominio.entidades;
 using System.Linq;
 
 namespace HospiEnCasa.App.Persistencia
@@ -58,8 +58,9 @@ namespace HospiEnCasa.App.Persistencia
             var generoEncontrado = _appContex.Generos.FirstOrDefault(p => p.Id == genero.Id);
             if (generoEncontrado == null)
             {
-                generoEncontrado.Name = genero.Name;
-                generoEncontrado.Description = genero.Description;               
+                generoEncontrado=genero;
+/*                generoEncontrado.Name = genero.Name;
+                generoEncontrado.Description = genero.Description;*/               
                 _appContex.SaveChanges();
                 return generoEncontrado;
             }

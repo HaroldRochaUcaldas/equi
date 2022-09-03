@@ -1,4 +1,4 @@
-using System;
+//using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 namespace HospitalEnCasa.App.Dominio.entidades
@@ -6,7 +6,7 @@ namespace HospitalEnCasa.App.Dominio.entidades
 
     public static class EnumExtensionMethods  
     {  
-        public static string GetEnumDescription(this Enum enumValue)  
+        public static string GetEnumDescription(this System.Enum enumValue)  
         {  
             var fieldInfo = enumValue.GetType().GetField(enumValue.ToString());  
   

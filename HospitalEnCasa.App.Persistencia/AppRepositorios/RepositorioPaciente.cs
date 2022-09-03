@@ -8,7 +8,7 @@ namespace HospiEnCasa.App.Persistencia
 
     public class RepositorioPaciente : IRepositorioPaciente
     {
-        /*
+        
                 private readonly AppContext _appContex;
 
                 /// <summary>
@@ -45,11 +45,6 @@ namespace HospiEnCasa.App.Persistencia
 
                 public Paciente GetPaciente(int idPaciente)
                 {
-                    Paciente pacienteretornado = _appContex.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
-                    if (pacienteretornado.genero == null)
-                    {
-                     pacienteretornado.genero=_appContex.Generos.FirstOrDefault(p => p.Id == pacienteretornado.genero_id);
-                    }
                     return _appContex.Pacientes.FirstOrDefault(p => p.Id == idPaciente);
                 }
 
@@ -60,10 +55,11 @@ namespace HospiEnCasa.App.Persistencia
 
                 public Paciente UpdatePaciente(Paciente paciente)
                 {
-                    var pacienteEncontrado = _appContex.Pacientes.FirstOrDefault(p => p.id == paciente.id);
+                    var pacienteEncontrado = _appContex.Pacientes.FirstOrDefault(p => p.Id == paciente.Id);
                     if (pacienteEncontrado == null)
                     {
-                        pacienteEncontrado.nombres = paciente.nombres;
+                        pacienteEncontrado=paciente;
+                       /* pacienteEncontrado.nombres = paciente.nombres;
                         pacienteEncontrado.apellidos = paciente.apellidos;
                         pacienteEncontrado.numeroTelefeno = paciente.numeroTelefeno;
                         pacienteEncontrado.genero_id = paciente.genero_id;
@@ -72,7 +68,7 @@ namespace HospiEnCasa.App.Persistencia
                         pacienteEncontrado.latitud = paciente.latitud;
                         pacienteEncontrado.longitud = paciente.longitud;
                         pacienteEncontrado.ciudad = paciente.ciudad;
-                        pacienteEncontrado.fechaNacimiento = paciente.fechaNacimiento;
+                        pacienteEncontrado.fechaNacimiento = paciente.fechaNacimiento;*/
                         _appContex.SaveChanges();
                         return pacienteEncontrado;
                     }
@@ -80,30 +76,6 @@ namespace HospiEnCasa.App.Persistencia
                     {
                         return pacienteEncontrado;
                     }
-                }*/
-        public Paciente AddPaciente(Paciente paciente)
-        {
-            throw new NotImplementedException();
-        }
-
-        public bool DeletePaciente(int idPaciente)
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<Paciente> GetAllPacientes()
-        {
-            throw new NotImplementedException();
-        }
-
-        public Paciente GetPaciente(int idPaciente)
-        {
-            throw new NotImplementedException();
-        }
-
-        public Paciente UpdatePaciente(Paciente paciente)
-        {
-            throw new NotImplementedException();
-        }
+                }
     }
 }
