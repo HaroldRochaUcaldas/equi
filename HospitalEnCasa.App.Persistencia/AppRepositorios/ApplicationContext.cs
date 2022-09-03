@@ -3,7 +3,7 @@ using HospitalEnCasa.App.Dominio.entidades;
 
 namespace HospiEnCasa.App.Persistencia
 {
-    public class AppicationContext : DbContext
+    public class ApplicationContext : DbContext
     {
         public DbSet<Persona> Personas { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }

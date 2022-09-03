@@ -1,12 +1,12 @@
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.deps.json
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.dll
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.pdb
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Dominio.dll
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Dominio.pdb
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.csprojAssemblyReference.cache
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.AssemblyInfoInputs.cache
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.AssemblyInfo.cs
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.csproj.CoreCompileInputs.cache
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.csproj.CopyComplete
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.dll
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.pdb
-D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Dominio.dll
-D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\bin\Debug\netstandard2.1\HospitalEnCasa.App.Dominio.pdb
-D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Persistencia\obj\Debug\netstandard2.1\HospitalEnCasa.App.Persistencia.csproj.CopyComplete
