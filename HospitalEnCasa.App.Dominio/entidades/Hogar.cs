@@ -9,9 +9,9 @@ namespace HospitalEnCasa.App.Dominio.entidades
     {
         public int Id {get;set;}
         public string Direccion{get;set;}
-        public double Latirud{get;set;}
+        public double Latitud{get;set;}
         public double Longitud{get;set;}
-        public string Cidudad{get;set;}
+        public string Ciudad{get;set;}
         public int IdPaciente{get;set;}
         public Paciente ElPaciente{get;set;}
     }

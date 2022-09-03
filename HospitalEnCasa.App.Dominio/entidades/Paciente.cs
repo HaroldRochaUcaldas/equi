@@ -14,7 +14,7 @@ namespace HospitalEnCasa.App.Dominio.entidades
         public Enfermero SuEnfermero{get;set;}
         public FamiliarDesignado SuFamiliarDesinado {get;set;}
         public Hogar SuHogar {get;set;}
-        public ICollection<SignoVital> SignsVitales{get;set;}
+        public ICollection<SignoVital> SignosVitales{get;set;}
         public Historico HistorialMedico{get;set;}
         
     }

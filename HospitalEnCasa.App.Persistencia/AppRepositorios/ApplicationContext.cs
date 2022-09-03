@@ -68,7 +68,7 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
                .HasMany(c => c.Pacientes)
                .WithOne(e => e.SuEnfermero);
                 modelBuilder.Entity<Paciente>()
-               .HasMany(c => c.SignsVitales)
+               .HasMany(c => c.SignosVitales)
                .WithOne(e => e.ElPaciente);
                modelBuilder.Entity<Hospital>()
                .HasMany(c => c.Auxiliares)
