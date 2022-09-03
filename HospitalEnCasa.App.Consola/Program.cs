@@ -21,7 +21,7 @@ namespace HospitalEnCasa.App.Consola
                 FechaDeNacimiento= new DateTime(1995,02,13),
                 Documento="1018474393",
                 TipoDeDocumento="C.C",
-                /*SusMedicos= new Collection<Medico>(),
+                SusMedicos= new Collection<Medico>(),
                 SuEnfermero= new Enfermero {
                     TarjetaProfesional="adquirida",
                     HorasLaborales=2
@@ -37,7 +37,7 @@ namespace HospitalEnCasa.App.Consola
                 SignosVitales=new Collection<SignoVital>(),
                 HistorialMedico= new Historico{
                     Diagnostico="Bueno" 
-                }*/
+                }
             };
             _repoPaciente.AddPaciente(paciente);
         }
