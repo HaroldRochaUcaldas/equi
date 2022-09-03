@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 using HospitalEnCasa.App.Dominio.entidades;
-namespace HospiEnCasa.App.Persistencia
+namespace HospitalEnCasa.App.Persistencia.AppRepositorios
 {
     public interface IRepositorioGenero
     {

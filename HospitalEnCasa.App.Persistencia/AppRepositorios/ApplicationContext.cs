@@ -1,20 +1,25 @@
 using Microsoft.EntityFrameworkCore;
 using HospitalEnCasa.App.Dominio.entidades;
 
-namespace HospiEnCasa.App.Persistencia
+namespace HospitalEnCasa.App.Persistencia.AppRepositorios
 {
-    public class AppContext : DbContext
+    public class ApplicationContext : DbContext
     {
         public DbSet<Persona> Personas { get; set; }
         public DbSet<Paciente> Pacientes { get; set; }
+        public DbSet<Auxiliar> Auxiliares { get; set; }
         public DbSet<FamiliarDesignado> FamiliarDesignados { get; set; }
-        public DbSet<Enfermero> Enfermeras { get; set; }
+        public DbSet<Enfermero> Enfermeros { get; set; }
         public DbSet<Medico> Medicos { get; set; }
         public DbSet<Genero> Generos { get; set; }
         //public DbSet<TipoSigno> TipoSignos{ get; set; }
-        public DbSet<SignoVital> SignoVitales { get; set; }
+        public DbSet<SignoVital> SignoVitals { get; set; }
         public DbSet<SugerenciaDeCuidado> sugerenciaCuidados{ get; set; }
-        public DbSet<Historico> Historias { get; set; }
+        public DbSet<Historico> Historicos { get; set; }
+        public DbSet<Hogar> Hogars { get; set; }
+        public DbSet<Hospital> Hospitals { get; set; }
+        public DbSet<PersonalDeSalud>PersonalDeSaluds {get;set;}
+        public DbSet<SugerenciaDeCuidado>SugerenciaDeCuidados {get;set;}
         //public DbSet<Medico> Medicos { get; set; }
        // public DbContextOptionsBuilder OptionBuilder {get; set;}
 

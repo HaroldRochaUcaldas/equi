@@ -3,19 +3,19 @@ using System.Collections.Generic;
 using HospitalEnCasa.App.Dominio.entidades;
 using System.Linq;
 
-namespace HospiEnCasa.App.Persistencia
+namespace HospitalEnCasa.App.Persistencia.AppRepositorios
 {
 
     public class RepositorioGenero : IRepositorioGenero
     {
 
-        private readonly AppContext _appContex;
+        private readonly ApplicationContext _appContex;
 
         /// <summary>
         //description metodo constructor recibe un apptontex
         /// </summary>>
         /// <param name="appcontext">description</param>>
-        public RepositorioGenero(AppContext appContex)
+        public RepositorioGenero(ApplicationContext appContex)
         {
             _appContex = appContex;
         }
