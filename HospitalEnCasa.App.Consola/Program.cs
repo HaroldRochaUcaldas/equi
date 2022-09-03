@@ -15,9 +15,15 @@ namespace HospitalEnCasa.App.Consola
         }
         private static void AddPaciente()
         {
+           // Paciente paciente= new Paciente();
             var paciente = new Paciente
             {
                 Nombre = "Harold Rocha",
+                NumeroTelefonico=7536984,
+                SuGenero= new Genero{
+                    Name="Maculino",
+                    Description="especimen masculino"
+                },
                 FechaDeNacimiento= new DateTime(1995,02,13),
                 Documento="1018474393",
                 TipoDeDocumento="C.C",
