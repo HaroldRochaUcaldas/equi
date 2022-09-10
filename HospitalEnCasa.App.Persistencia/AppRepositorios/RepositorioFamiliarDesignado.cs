@@ -19,6 +19,11 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioFamiliarDesignado(){
+            _appContex=new ApplicationContext();
+        }
+
+
         public FamiliarDesignado AddFamiliarDesignado(FamiliarDesignado familiarDesignado)
         {
             var familiarDesignadoAdicionado = _appContex.FamiliarDesignados.Add(familiarDesignado);

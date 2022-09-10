@@ -8,7 +8,7 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
 {
     public class RepositorioAuxiliar:IRepositorioAuxiliar
     {
-                private readonly ApplicationContext _appContex;
+                private readonly ApplicationContext  _appContex=new ApplicationContext();
 
         /// <summary>
         //description metodo constructor recibe un apptontex
@@ -19,6 +19,9 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioAuxiliar(){
+            _appContex=new ApplicationContext();
+        }
         public Auxiliar AddAuxiliar(Auxiliar auxiliar)
         {
             var auxiliarAdicionado = _appContex.Auxiliares.Add(auxiliar);

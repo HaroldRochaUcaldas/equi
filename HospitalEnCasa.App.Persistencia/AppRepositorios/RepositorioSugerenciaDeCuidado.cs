@@ -19,6 +19,10 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioSugerenciaDeCuidado(){
+            _appContex=new ApplicationContext();
+        }
+
         public SugerenciaDeCuidado AddSugerenciaDeCuidado(SugerenciaDeCuidado sugerenciaDeCuidado)
         {
             var sugerenciaDeCuidadoAdicionado = _appContex.SugerenciaDeCuidados.Add(sugerenciaDeCuidado);

@@ -20,6 +20,11 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioGenero(){
+            _appContex=new ApplicationContext();
+        }
+
+
         public Genero AddGenero(Genero genero)
         {
             var generoAdicionado = _appContex.Generos.Add(genero);

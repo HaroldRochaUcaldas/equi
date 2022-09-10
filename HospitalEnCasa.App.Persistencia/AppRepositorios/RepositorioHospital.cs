@@ -18,6 +18,9 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
         {
             _appContex = appContex;
         }
+        public RepositorioHospital(){
+            _appContex=new ApplicationContext();
+        }
 
         public Hospital AddHospital(Hospital hospital)
         {

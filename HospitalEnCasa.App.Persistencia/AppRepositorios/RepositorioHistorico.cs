@@ -19,6 +19,10 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioHistorico(){
+            _appContex=new ApplicationContext();
+        }
+
         public Historico AddHistorico(Historico historico)
         {
             var historicoAdicionado = _appContex.Historicos.Add(historico);

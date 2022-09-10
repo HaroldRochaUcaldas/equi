@@ -26,7 +26,7 @@ namespace HospitalEnCasa.App.Frontend
         {
             services.AddRazorPages();
             services.AddSingleton<IRepositorioAuxiliar,RepositorioAuxiliar>();
-            services.AddSingleton<IRepositorioGenero,RepositorioGenero>();
+            //services.AddSingleton<IRepositorioGenero,RepositorioGenero>();
             services.AddSingleton<IRepositorioEnfemero,RepositorioEnfermero>();
             services.AddSingleton<IRepositorioFamiliarDesignado,RepositorioFamiliarDesignado>();
             services.AddSingleton<IRepositorioHistorico,RepositorioHistorico>();

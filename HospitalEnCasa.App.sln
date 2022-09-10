@@ -11,8 +11,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalEnCasa.App.Servicio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalEnCasa.App.Consola", "HospitalEnCasa.App.Consola\HospitalEnCasa.App.Consola.csproj", "{F7743F8C-F888-4E00-B227-52D899058E49}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospiEnCasa.App.Frontend", "HospitalEnCasa.App.Frontend\HospiEnCasa.App.Frontend.csproj", "{B61B502D-F308-4E76-B494-E5E19FCB123A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HospitalEnCasa.App.Frontend", "HospitalEnCasa.App.Frontend\HospitalEnCasa.App.Frontend.csproj", "{91877DF8-5716-4DA1-B214-8347B83ADD71}"
 EndProject
 Global

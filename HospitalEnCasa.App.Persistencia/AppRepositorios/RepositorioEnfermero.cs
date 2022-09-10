@@ -23,7 +23,6 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
         }
 
 
-
         public Enfermero AddEnfermero(Enfermero enfermero)
         {
             var enfermeroAdicionado = _appContex.Enfermeros.Add(enfermero);

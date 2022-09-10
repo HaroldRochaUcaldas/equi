@@ -19,6 +19,10 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioMedico(){
+            _appContex=new ApplicationContext();
+        }
+
         public Medico AddMedico(Medico medico)
         {
             var medicoAdicionado = _appContex.Medicos.Add(medico);

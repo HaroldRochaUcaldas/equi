@@ -19,6 +19,10 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             _appContex = appContex;
         }
 
+        public RepositorioSignoVital(){
+            _appContex=new ApplicationContext();
+        }
+
         public SignoVital AddSignoVital(SignoVital signoVital)
         {
             var signoVitalAdicionado = _appContex.SignoVitals.Add(signoVital);
