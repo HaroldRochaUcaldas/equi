@@ -14422,6 +14422,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "d:\\Users\\harld\\Documents\\Ciclo3_.net3.1\\Hopitalizacion\\HospitalEnCasa.App\\HospitalEnCasa.App.Frontend\\Pages\\PacientePage\\PacienteList.cshtml",
+      "TargetPath": "Pages\\PacientePage\\PacienteList.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "d:\\Users\\harld\\Documents\\Ciclo3_.net3.1\\Hopitalizacion\\HospitalEnCasa.App\\HospitalEnCasa.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
       "FileKind": "mvc"

@@ -33,7 +33,7 @@ namespace HospitalEnCasa.App.Frontend
             services.AddSingleton<IRepositorioHogar,RepositorioHogar>();
             services.AddSingleton<IRepositorioHospital,RepositorioHospital>();
             services.AddSingleton<IRepositorioMedico,RepositorioMedico>();
-            services.AddSingleton<IRepositorioPaciente,RepositorioPaciente>();
+            services.AddTransient<IRepositorioPaciente,RepositorioPaciente>();
             services.AddSingleton<IRepositorioPersona,RepositorioPersona>();
             services.AddSingleton<IRepositorioPersonalDeSalud,RepositorioPersonalDeSalud>();
             services.AddSingleton<IRepositorioSingoVital,RepositorioSignoVital>();

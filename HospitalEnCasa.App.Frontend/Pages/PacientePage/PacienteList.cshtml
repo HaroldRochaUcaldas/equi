@@ -1,0 +1,17 @@
+﻿@page
+@model PacienteListModel
+@{
+    ViewData["Title"] = "Pacientes";
+}
+
+<h1>
+    <table class="table">
+    @foreach (var Paciente in Model.listaPaciente)
+    {
+        <tr>
+            <td>@Paciente.Documento</td>
+             <td>@Paciente.FechaDeNacimiento</td>           
+        </tr>
+    }
+    </table>
+</h1>

@@ -81,3 +81,4 @@ D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\Hospit
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospitalEnCasa.App.Frontend.dll
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospitalEnCasa.App.Frontend.pdb
 D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\HospitalEnCasa.App.Frontend.genruntimeconfig.cache
+D:\Users\harld\Documents\Ciclo3_.net3.1\Hopitalizacion\HospitalEnCasa.App\HospitalEnCasa.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\PacientePage\PacienteList.cshtml.g.cs
