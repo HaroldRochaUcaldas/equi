@@ -33,11 +33,12 @@ namespace HospitalEnCasa.App.Frontend
             services.AddSingleton<IRepositorioHogar,RepositorioHogar>();
             services.AddSingleton<IRepositorioHospital,RepositorioHospital>();
             services.AddSingleton<IRepositorioMedico,RepositorioMedico>();
-            services.AddTransient<IRepositorioPaciente,RepositorioPaciente>();
+            services.AddScoped<IRepositorioPaciente,RepositorioPaciente>();
             services.AddSingleton<IRepositorioPersona,RepositorioPersona>();
             services.AddSingleton<IRepositorioPersonalDeSalud,RepositorioPersonalDeSalud>();
             services.AddSingleton<IRepositorioSingoVital,RepositorioSignoVital>();
             services.AddSingleton<IRepositorioSugerenciaDeCuidado,RepositorioSugerenciaDeCuidado>();
+           //services.AddDbContext<ApplicationContext>(options=>options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

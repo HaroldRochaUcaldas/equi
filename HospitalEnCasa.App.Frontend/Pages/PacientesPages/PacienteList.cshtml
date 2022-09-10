@@ -10,7 +10,8 @@
     {
         <tr>
             <td>@Paciente.Documento</td>
-             <td>@Paciente.FechaDeNacimiento</td>           
+             <td>@Paciente.FechaDeNacimiento</td>      
+             <td> <a class="btn btn-primary table-btn" asp-page="./Detalles"asp-route-PacienteId=@Paciente.Id> <i class="fas fa-info-circle"></i>Detalles</a></td>     
         </tr>
     }
     </table>

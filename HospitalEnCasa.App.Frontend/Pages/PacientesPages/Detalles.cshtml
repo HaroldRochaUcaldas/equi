@@ -1,0 +1,18 @@
+@page
+@model HospitalEnCasa.App.Frontend.Pages.PacientesPages.Detalles
+@{
+    ViewData["Title"] = "Detalles";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+        <tr>
+            <th>Nombre del enfermero</th>
+            <th>Su_Hogar</th>
+        </tr>
+        <tr>
+            <td>@Model.elPaciente.SuEnfermero.Nombre</td>
+             <td>@Model.elPaciente.SuHogar</td>           
+        </tr>
+</div>
