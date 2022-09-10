@@ -6,7 +6,7 @@ using HospitalEnCasa.App.Dominio.entidades;
 
 namespace HospitalEnCasa.App.Persistencia.AppRepositorios
 {
-    public class RepositorioEnfermero
+    public class RepositorioEnfermero:IRepositorioEnfemero
     {
         private readonly ApplicationContext _appContex;
 
@@ -18,6 +18,11 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
         {
             _appContex = appContex;
         }
+        public RepositorioEnfermero(){
+             _appContex=new ApplicationContext();
+        }
+
+
 
         public Enfermero AddEnfermero(Enfermero enfermero)
         {

@@ -6,7 +6,7 @@ using HospitalEnCasa.App.Dominio.entidades;
 
 namespace HospitalEnCasa.App.Persistencia.AppRepositorios
 {
-    public class RepositorioHogar
+    public class RepositorioHogar:IRepositorioHogar
     {
         private readonly ApplicationContext _appContex;
 

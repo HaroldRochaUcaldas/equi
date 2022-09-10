@@ -59,8 +59,8 @@ namespace HospitalEnCasa.App.Persistencia.AppRepositorios
             if (generoEncontrado == null)
             {
                 generoEncontrado=genero;
-/*                generoEncontrado.Name = genero.Name;
-                generoEncontrado.Description = genero.Description;*/               
+                generoEncontrado.Name = genero.Name;
+                generoEncontrado.Description = genero.Description;               
                 _appContex.SaveChanges();
                 return generoEncontrado;
             }
